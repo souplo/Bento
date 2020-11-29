@@ -14,33 +14,65 @@ const config = {
             icon: 'github'
         },
         {
-            url: 'https://mail.google.com',
+            url: 'https://twitch.tv',
+            icon: 'twitch'
+        },
+                {
+            url: 'vscode://',
+            icon: 'code'
+        },
+        {
+            url: 'https://twitter.com',
+            icon: 'twitter'
+        },
+
+        {
+            url: 'https:/youtube.com',
+            icon: 'youtube'
+        },
+        {        
+            url: 'https://gmail.com',
             icon: 'mail'
         }
+
+
     ],
     // right side panels
     panels: [
-        // example link list panel
         {
-            icon: 'github',
+            icon: 'coffee',
             items: [
                 {
-                    name: 'DanK',
-                    url: 'https://github.com/DanKGooGly'
+                    name: 'Gent',
+                    url: 'https://git.gent.ooo'
+                }, 
+                {
+                    name: 'Trello',
+                    url: 'https://trello.com'
                 },
                 {
-                    name: 'AA',
-                    url: 'https://github.com/AAGaming00'
-                }
+                    name: 'Reddit',
+                    url: 'https://reddit.com'
+                },
+                {
+                    name: 'Amazom',
+                    url: 'https://amazon.com'
+                },
+                {
+                    name: 'My Anime List',
+                    url: 'https://myanimelist.net'
+                },
+
             ]
         },
-        // example iframe panel
+        // left side panels
         {
-            url: 'https://example.com/',
+            url: ' ',
             // optional prop to zoom the frame in/out
-            zoom: 0.5
+            zoom: 1
         }
     ],
+    
     // for weather data, remove this to remove weather
     weather: {
         // weather icon pack to use
