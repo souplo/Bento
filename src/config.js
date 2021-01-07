@@ -27,7 +27,7 @@ const config = {
         },
 
         {
-            url: 'https:/youtube.com',
+            url: 'https://youtube.com',
             icon: 'youtube'
         },
         {        
