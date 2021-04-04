@@ -40,7 +40,7 @@ const config = {
     // right side panels
     panels: [
         {
-            icon: 'coffee',
+            icon: 'bookmark',
             items: [
                 {
                     name: 'Gent',
@@ -55,7 +55,7 @@ const config = {
                     url: 'https://reddit.com'
                 },
                 {
-                    name: 'Amazom',
+                    name: 'Amazon',
                     url: 'https://amazon.com'
                 },
                 {
@@ -67,9 +67,29 @@ const config = {
         },
         // left side panels
         {
-            url: ' ',
-            // optional prop to zoom the frame in/out
-            zoom: 1
+            icon: 'at-sign',
+            items: [
+                {
+                    name: 'github',
+                    url: 'https://github.com/Snapperito'
+                },
+                {
+                    name: 'discord',
+                    url: 'https://discord.com/users/431883840483491850'
+                },
+                {
+                    name: 'reddit',
+                    url: 'https://www.reddit.com/u/snapperito'
+                },
+                {
+                    name: 'steam',
+                    url: 'https://steamcommunity.com/id/snapperito/'
+                },
+                { 
+                    name: 'wishlist',
+                    url: 'https://wishlist.snapper.dev'
+                }
+            ]
         }
     ],
     
@@ -80,9 +100,9 @@ const config = {
         // whether to preload the icons or not
         preloadIcons: true,
         tempUnit: 'F',
-        key: '1ba472bdeb003a88cf66c572ac6ffb3e',
-        latitude: 32.794773,
-        longitude: -116.962524
+        key: 'c1deb0ff8dbf879234779a493e03e7d2',
+        latitude: 32.712489,
+        longitude: -117.120189
     }
 }
 
