@@ -43,23 +43,23 @@ const config = {
             icon: 'bookmark',
             items: [
                 {
-                    name: 'Gent',
+                    name: 'gent',
                     url: 'https://git.gent.ooo'
                 }, 
                 {
-                    name: 'Trello',
+                    name: 'trello',
                     url: 'https://trello.com'
                 },
                 {
-                    name: 'Reddit',
+                    name: 'reddit',
                     url: 'https://reddit.com'
                 },
                 {
-                    name: 'Amazon',
+                    name: 'amazon',
                     url: 'https://amazon.com'
                 },
                 {
-                    name: 'My Anime List',
+                    name: 'my anime list',
                     url: 'https://myanimelist.net'
                 },
 
