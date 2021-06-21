@@ -43,12 +43,12 @@ const config = {
             icon: 'bookmark',
             items: [
                 {
-                    name: 'gent',
-                    url: 'https://git.gent.ooo'
+                    name: 'mechbuys',
+                    url: 'http://www.mechgroupbuys.com/'
                 }, 
                 {
-                    name: 'trello',
-                    url: 'https://trello.com'
+                    name: 'server panel',
+                    url: 'http://131.153.186.82/'
                 },
                 {
                     name: 'reddit',
@@ -59,8 +59,8 @@ const config = {
                     url: 'https://amazon.com'
                 },
                 {
-                    name: 'my anime list',
-                    url: 'https://myanimelist.net'
+                    name: 'simplenote',
+                    url: 'https://app.simplenote.com'
                 },
 
             ]
