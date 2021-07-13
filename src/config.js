@@ -42,14 +42,7 @@ const config = {
         {
             icon: 'bookmark',
             items: [
-                {
-                    name: 'mechbuys',
-                    url: 'http://www.mechgroupbuys.com/'
-                }, 
-                {
-                    name: 'server panel',
-                    url: 'http://131.153.186.82/'
-                },
+
                 {
                     name: 'reddit',
                     url: 'https://reddit.com'
@@ -57,12 +50,20 @@ const config = {
                 {
                     name: 'amazon',
                     url: 'https://amazon.com'
-                },
+                },                
+                {
+                    name: 'mechbuys',
+                    url: 'http://www.mechgroupbuys.com/'
+                }, 
                 {
                     name: 'simplenote',
                     url: 'https://app.simplenote.com'
                 },
 
+                {
+                    name: 'server panel',
+                    url: 'https://earth.sudosecurity.org/'
+                },
             ]
         },
         // left side panels
