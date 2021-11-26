@@ -15,11 +15,11 @@ $bp-smallest: 31.25em;
 
     // C O L O R S
 
-    --accent: #9a9eb3aa;
+    --accent: #6b6b7f;
 
-    --bg: #878ba6; 
-    --sbg: #b0b8d1;
-    --fg: #fbfbf8;
+    --bg: #DDDDDD; 
+    --sbg: #CCCCCC;
+    --fg: #5C5A55;
 
     // --imgbg: url(/assets/img/wal.jpg);
 
@@ -37,13 +37,13 @@ $bp-smallest: 31.25em;
 }
 
 .app.darktheme {
-    --accent: #6272a4;
+    --accent: #6b6b7f;
 
-    --bg: #282a36;
+    --bg: #222222;
 
-    --sbg: #44475a;
+    --sbg: #333333;
 
-    --fg: #f8f8f2;
+    --fg: #a3a5aa;
 
 
     --imgcol: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));

@@ -62,7 +62,7 @@ const config = {
 
                 {
                     name: 'server panel',
-                    url: 'https://earth.sudosecurity.org/'
+                    url: 'https://panel.sudosecurity.org/'
                 },
             ]
         },
