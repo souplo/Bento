@@ -50,19 +50,18 @@ const config = {
                 {
                     name: 'amazon',
                     url: 'https://amazon.com'
-                },                
+                },      
                 {
-                    name: 'mechbuys',
-                    url: 'http://www.mechgroupbuys.com/'
+                    name: 'notion',
+                    url: 'https://www.notion.so'
                 }, 
                 {
-                    name: 'simplenote',
-                    url: 'https://app.simplenote.com'
-                },
-
+                    name: 'mechbuys',
+                    url: 'http://www.mechgroupbuys.com'
+                }, 
                 {
                     name: 'server panel',
-                    url: 'https://panel.sudosecurity.org/'
+                    url: 'https://panel.snpr.xyz'
                 },
             ]
         },
