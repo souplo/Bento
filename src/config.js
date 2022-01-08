@@ -98,7 +98,7 @@ const config = {
     // for weather data, remove this to remove weather
     weather: {
         // weather icon pack to use
-        iconPack: 'OneDark',
+        iconPack: 'matcha',
         // whether to preload the icons or not
         preloadIcons: true,
         tempUnit: 'F',
