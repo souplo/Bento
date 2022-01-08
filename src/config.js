@@ -1,26 +1,19 @@
 const config = {
-    "12hr": false, // 12 hour clock
+    "12hr": true, // 12 hour clock
     greetings: {
-        night: "Good Night",
-        morning: "Good Morning",
-        afternoon: "Pleasing afternoon",
-        evening: "Delightful evening",
-        name: "Snapper"
+        night: "goodnight",
+        morning: "good morning",
+        afternoon: "good afternoon",
+        evening: "good evening",
+        name: "anya"
     },
     // main buttons
     buttons: [
         {
-            url: 'https://github.com',
-            icon: 'github'
+            url: 'spotify://',
+            icon: 'headphones'
         },
-        {
-            url: 'https://twitch.tv',
-            icon: 'twitch'
-        },
-                {
-            url: 'vscode://',
-            icon: 'code'
-        },
+    
         {
             url: 'https://twitter.com',
             icon: 'twitter'
@@ -56,40 +49,20 @@ const config = {
                     url: 'https://www.notion.so'
                 }, 
                 {
-                    name: 'mechbuys',
-                    url: 'http://www.mechgroupbuys.com'
+                    name: 'netflix',
+                    url: 'https://www.netflix.com/browse'
                 }, 
                 {
-                    name: 'server panel',
-                    url: 'https://panel.snpr.xyz'
+                    name: 'pinterest',
+                    url: 'https://www.pinterest.com/homefeed/'
                 },
             ]
         },
         // left side panels
         {
-            icon: 'at-sign',
-            items: [
-                {
-                    name: 'github',
-                    url: 'https://github.com/Snapperito'
-                },
-                {
-                    name: 'discord',
-                    url: 'https://discord.com/users/431883840483491850'
-                },
-                {
-                    name: 'reddit',
-                    url: 'https://www.reddit.com/u/snapperito'
-                },
-                {
-                    name: 'steam',
-                    url: 'https://steamcommunity.com/id/snapperito/'
-                },
-                { 
-                    name: 'wishlist',
-                    url: 'https://wishlist.snapper.dev'
-                }
-            ]
+            url: 'https://example.com/',
+            // optional prop to zoom the frame in/out
+            zoom: 0.5
         }
     ],
     
@@ -101,8 +74,8 @@ const config = {
         preloadIcons: true,
         tempUnit: 'F',
         key: 'c1deb0ff8dbf879234779a493e03e7d2',
-        latitude: 32.712489,
-        longitude: -117.120189
+        latitude: 35.231651,
+        longitude: -106.612022
     }
 }
 
