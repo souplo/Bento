@@ -26,6 +26,14 @@ const config = {
         {        
             url: 'https://gmail.com',
             icon: 'mail'
+        },
+        {
+            url: 'steam://nav/library',
+            icon: 'cloud-rain'
+        },
+        {
+            url: 'https://www.twitch.tv/directory/following',
+            icon: 'twitch'
         }
 
 
@@ -33,7 +41,7 @@ const config = {
     // right side panels
     panels: [
         {
-            icon: 'bookmark',
+            icon: 'coffee',
             items: [
 
                 {
@@ -60,10 +68,31 @@ const config = {
         },
         // left side panels
         {
-            url: 'https://example.com/',
-            // optional prop to zoom the frame in/out
-            zoom: 0.5
+            icon: 'music',
+            items: [
+                {
+                    name: 'kendrick',
+                    url: 'spotify://playlist/37i9dQZF1E39EvcW0ExA0i?si=5968ed1db1614ae9'
+                },
+                {
+                    name: 'dad music',
+                    url: 'spotify://playlist/5IhGelZd7QRYJQB54Pu1xw?si=3108c037c1e24d5c'
+                },
+                {
+                    name: 'game soundtracks',
+                    url: 'spotify://playlist/2kdwjCmCQt9nFg2Qo8Q8YK?si=ba10915cde9b4556'
+                },
+                {
+                    name: 'faye indie stuff',
+                    url: 'spotify://playlist/6jPfkilCa2PjoaaplPsvHA?si=d4a0ce966087402c'
+                },
+                { 
+                    name: 'rainy',
+                    url: 'spotify://playlist/2DU92JThdBKnw1xJb9E0Td?si=f27d273a528148fe'
+                }
+            ]
         }
+
     ],
     
     // for weather data, remove this to remove weather
